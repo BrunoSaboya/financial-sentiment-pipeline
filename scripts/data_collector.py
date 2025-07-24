@@ -14,7 +14,7 @@ if not API_KEY:
 TICKER = "PETR4.SA"
 SEARCH_TERM = "Petrobras"
 END_DATE = datetime.now()
-START_DATE = END_DATE - timedelta(days=30)
+START_DATE = END_DATE - timedelta(days=120)
 
 
 RAW_DATA_PATH = os.path.join(os.path.dirname(__file__), '..', 'data', 'raw')
